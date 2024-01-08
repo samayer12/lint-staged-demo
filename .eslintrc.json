@@ -37,7 +37,7 @@
     "@typescript-eslint/no-explicit-any": 0,
     "@typescript-eslint/switch-exhaustiveness-check": "error",
     "default-case": "off",
-    "no-plusplus": 0,
+    "no-plusplus": 1,
     "no-inline-styles/no-inline-styles": 2,
     "no-underscore-dangle": ["error", { "allowAfterThis": true }],
 /*Vitest expect-expect does not allow us to specify custom assertions, therefore our helper functions do not satisfy this rule.*/

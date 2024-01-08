@@ -18,5 +18,10 @@
     "husky-init": "^8.0.0",
     "typescript": "^5.2.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "lint-staged": "^14.0.1"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": ["eslint --fix", "echo linted"]
+  }
 }

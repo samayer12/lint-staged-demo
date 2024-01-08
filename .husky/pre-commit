@@ -1,8 +1,4 @@
 #!/bin/bash
 . "$(dirname "$0")/_/husky.sh"
 
-echo "I'm a prepare commit hook"
-
-pwd
-
-yarn lint
+yarn lint-staged --verbose
