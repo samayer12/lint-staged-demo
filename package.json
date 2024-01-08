@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "prepare": "husky install",
+    "reset": "cp src/backup-bad-file.txt src/bad-file.tsx",
     "lint": "eslint src",
     "lint:fix": "eslint --fix src"
   },
