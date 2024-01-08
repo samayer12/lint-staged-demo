@@ -1,0 +1,14 @@
+{
+  "name": "frontend",
+  "version": "1.2.2",
+  "private": true,
+  "scripts": {
+    "hello": "echo saluton mondo",
+    "hello:english": "echo hello world",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "husky-init": "^8.0.0"
+  },
+  "devDependencies": {}
+}
