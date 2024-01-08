@@ -6,11 +6,6 @@
       "dom.iterable",
       "esnext"
     ],
-    "types": [
-      "vite/client",
-      "vite-plugin-svgr/client",
-      "vitest/globals"
-    ],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -23,7 +18,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx",
+    "noImplicitAny": true
   },
   "include": [
     "src"
