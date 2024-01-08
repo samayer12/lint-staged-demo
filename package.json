@@ -6,10 +6,17 @@
     "hello": "echo saluton mondo",
     "hello:english": "echo hello world",
     "prepare": "husky install",
-    "link": "eslint ."
+    "lint": "eslint src"
   },
   "dependencies": {
-    "husky-init": "^8.0.0"
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "eslint": "^8.48.0",
+    "eslint-plugin-no-inline-styles": "^1.0.5",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-vitest": "^0.2.8",
+    "husky-init": "^8.0.0",
+    "typescript": "^5.2.2"
   },
   "devDependencies": {}
 }
