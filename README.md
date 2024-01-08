@@ -74,6 +74,8 @@ This assumes you did not make any commits in the previous section.
 * The linter you used is a tool called [eslint](https://eslint.org/docs/latest/use/getting-started).
 * If you're using TypeScript, you can also configure a [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) file to specify how TypeScript should behave.
 * For this lesson, we used a basic linter configuration provided by AirBnb, [eslint-config-airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base).
+* This repo contains a script, `self-check.sh` to make sure the "happy path" for this lab works. Did you execute similar commands?
+
 
 ## Summary
 
