@@ -8,7 +8,7 @@
 ## Motivation
 
 Linters are crucial for maintaining code quality and consistency in software, especially when working with a team of developers.
-This module introduces how linters act like a spelling and grammar checker for the code that you write at Wavelength.
+This module introduces how linters act like a spelling and grammar checker for the code that you write.
 
 ## Notes
 
@@ -62,7 +62,7 @@ Discard any changes you have made by performing `git reset --hard HEAD`.
 This assumes you did not make any commits in the previous section.
 
 1. Modify the contents of `bad-file.tsx` so that you can stage it for a commit.
-2. Run git add `src/bad-file.tsx`.
+2. Run `git add src/bad-file.tsx`.
 3. Run `git commit -m "Some commit message to trigger the linter"`
 4. Observe the terminal output, it should be the same as when you ran `npm run lint:fix`
 5. Resolve the remaining linter warnings in `src/bad-file.tsx`
@@ -71,6 +71,7 @@ This assumes you did not make any commits in the previous section.
 
 ## Further Reading
 
+* This video, (What is a Linter and Why You Should Use One)[https://www.youtube.com/watch?v=HDQXWr5TOnI] provides another perspective on linters and their value.
 * The linter you used is a tool called [eslint](https://eslint.org/docs/latest/use/getting-started).
 * If you're using TypeScript, you can also configure a [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) file to specify how TypeScript should behave.
 * For this lesson, we used a basic linter configuration provided by AirBnb, [eslint-config-airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base).
