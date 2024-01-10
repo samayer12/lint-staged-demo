@@ -71,7 +71,7 @@ This assumes you did not make any commits in the previous section.
 
 ## Further Reading
 
-* This video, (What is a Linter and Why You Should Use One)[https://www.youtube.com/watch?v=HDQXWr5TOnI] provides another perspective on linters and their value.
+* This video, [What is a Linter and Why You Should Use One](https://www.youtube.com/watch?v=HDQXWr5TOnI) provides another perspective on linters and their value.
 * The linter you used is a tool called [eslint](https://eslint.org/docs/latest/use/getting-started).
 * If you're using TypeScript, you can also configure a [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) file to specify how TypeScript should behave.
 * For this lesson, we used a basic linter configuration provided by AirBnb, [eslint-config-airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base).
